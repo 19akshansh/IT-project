@@ -42,3 +42,18 @@ java ./AreaCircle.java
 
 ## Running MYSQL in Github Codespaces/VScode
 
+
+Install:
+
+```bash
+sudo apt update
+sudo apt install mysql-server -y
+```
+
+Start MYSQL, Check Status & Login:
+
+```bash
+sudo service mysql start # start
+sudo service mysql status # check status
+sudo mysql # login
+```

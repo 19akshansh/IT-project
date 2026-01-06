@@ -1,0 +1,1 @@
+ALTER TABLE students ADD city VARCHAR(30);
