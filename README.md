@@ -1,2 +1,44 @@
 # IT-project
+
 My IT Project for class 12 CBSE board, IT (802)
+The repository consists of 15 JAVA + 15 MYSQL unique Programs that one can submit in their Class 12 CBSE IT(802) Practical
+
+You can download the pdf of both through:
+
+
+## Running JAVA in Github Codespaces:
+
+Install:
+
+```bash
+sudo apt update
+sudo apt install -y openjdk-25-jdk
+```
+
+Check Installation:
+
+```bash
+java -version
+javac -version
+```
+
+Make a file:
+
+`.devcontainer/devcontainer.json`:
+
+```json
+{
+  "name": "Java Codespace",
+  "image": "mcr.microsoft.com/devcontainers/java:25"
+}
+```
+
+Switch to the JAVA Programs directory & Run any java program(say AreaCircle for now)
+
+```bash
+cd JAVA/programs
+java ./AreaCircle.java
+```
+
+## Running MYSQL in Github Codespaces/VScode
+
